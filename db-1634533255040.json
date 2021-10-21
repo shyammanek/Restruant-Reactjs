@@ -1,0 +1,53 @@
+{
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": "200",
+      "rating": "5",
+      "location": "blr"
+    },
+    {
+      "name": "Burger",
+      "price": "2007",
+      "rating": "5",
+      "location": "blr",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Vadapau",
+      "price": "250",
+      "rating": "5",
+      "location": "blr"
+    },
+    {
+      "id": 4,
+      "name": "Dabeli",
+      "price": "300",
+      "rating": "5",
+      "location": "blr"
+    },
+    {
+      "name": "Pasta",
+      "price": "350",
+      "rating": "5",
+      "location": "Kochi",
+      "id": 5
+    },
+    {
+      "name": "Cafe Coffee",
+      "price": "950",
+      "rating": "9",
+      "location": "RJT",
+      "id": 6
+    },
+    {
+      "name": "kasjkdn",
+      "price": "jnj",
+      "rating": "jkn",
+      "location": "jnj",
+      "id": 7
+    }
+  ]
+}

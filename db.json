@@ -1,0 +1,52 @@
+{
+  "login": [
+    {
+      "name": "shyam",
+      "password": "123"
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "Pizza",
+      "price": "200",
+      "rating": "5",
+      "location": "blr"
+    },
+    {
+      "name": "Burger",
+      "price": "2007",
+      "rating": "5",
+      "location": "blr",
+      "id": 2
+    },
+    {
+      "id": 4,
+      "name": "Dabeli",
+      "price": "300",
+      "rating": "5",
+      "location": "blr"
+    },
+    {
+      "name": "cafe coffee ",
+      "price": "63",
+      "rating": "4.6",
+      "location": "anand",
+      "id": 5
+    },
+    {
+      "name": "KFC",
+      "price": "160",
+      "rating": "4.8",
+      "location": "Blr",
+      "id": 6
+    },
+    {
+      "name": "T Post",
+      "price": "7",
+      "rating": "3.5",
+      "location": "Berlin",
+      "id": 7
+    }
+  ]
+}
