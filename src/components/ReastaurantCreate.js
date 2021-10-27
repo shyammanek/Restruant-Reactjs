@@ -13,7 +13,7 @@ class ReastaurantCreate extends Component {
     }
 
     Create() {
-        fetch("http://localhost:3000/restaurant", {
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant", {
             method: "Post",
             headers: {
                 'Content-Type': 'application/json'
