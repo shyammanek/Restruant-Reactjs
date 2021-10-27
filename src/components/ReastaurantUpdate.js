@@ -14,7 +14,7 @@ class ReastaurantUpdate extends Component {
 
 
     componentDidMount() {
-        fetch("http://localhost:3000/restaurant/"+this.props.match.params.id).then((response) => {
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant/"+this.props.match.params.id).then((response) => {
             response.json().then((result) => {
                 console.warn(result)
                 this.setState({
@@ -30,7 +30,7 @@ class ReastaurantUpdate extends Component {
     }
 
     Update() {
-        fetch("http://localhost:3000/restaurant/" + this.state.id, {
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant/" + this.state.id, {
             method: "PUT",
             headers: {
                 'Content-Type': 'application/json'
