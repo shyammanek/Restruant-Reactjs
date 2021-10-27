@@ -16,7 +16,7 @@ class ReastaurantList extends Component {
      this.getData()
     }
     getData(){
-          fetch("http://localhost:3000/restaurant").then((response) => {
+          fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant").then((response) => {
             response.json().then((result) => {
                 console.warn(result)
                 this.setState({list: result})
