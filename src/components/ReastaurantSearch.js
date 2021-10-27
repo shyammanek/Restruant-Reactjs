@@ -17,7 +17,7 @@ class ReastaurantSearch extends Component {
 
     search(key) {
         this.setState({lastSearch: key})
-        fetch("http://localhost:3000/restaurant?q=" + key).then((data) => {
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant?q=" + key).then((data) => {
             data.json().then((resp) => {
                 console.warn("Resp", resp)
                 if (resp.length > 0) {
@@ -36,7 +36,7 @@ class ReastaurantSearch extends Component {
     }
 
     getData() {
-        fetch("http://localhost:3000/restaurant").then((response) => {
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant").then((response) => {
             response.json().then((result) => {
                 console.warn(result)
                 this.setState({list: result})
@@ -45,7 +45,7 @@ class ReastaurantSearch extends Component {
     }
 
     Delete(id) {
-        fetch("http://localhost:3000/restaurant/" + id,
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant/" + id,
             {
                 method: "DELETE",
             }).then((result) => {
