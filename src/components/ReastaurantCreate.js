@@ -21,7 +21,7 @@ class ReastaurantCreate extends Component {
             body: JSON.stringify(this.state)
         }).then((result) => {
             result.json().then((resp) => {
-                alert("Restruant Created",+resp)
+                alert("Restruant Created", +resp)
             })
         })
     }
@@ -30,21 +30,25 @@ class ReastaurantCreate extends Component {
         return (
             <div>
                 <h1>Reastaurant Create</h1>
+                <h6>Enter Restruant Name</h6>
                 <input onChange={(event => {
                     this.setState({name: event.target.value})
-                })} placeholder="Restruant Name"/><br/>
+                })} placeholder=" Name"/>
 
+                <h6>Enter Price</h6>
                 <input onChange={(event => {
                     this.setState({price: event.target.value})
-                })} placeholder="Price" /><br/>
+                })} placeholder="Price"/>
 
+                <h6>Enter Restruant Ratings</h6>
                 <input onChange={(event => {
                     this.setState({rating: event.target.value})
-                })} placeholder="Restruant Rating"/><br/>
+                })} placeholder=" Rating"/><br/>
 
+               <h6>Enter Restruant Location</h6>
                 <input onChange={(event => {
                     this.setState({location: event.target.value})
-                })} placeholder="Restruant Location"/><br/>
+                })} placeholder=" Location"/><br/>
 
                 <Button onClick={() => {
                     this.Create()

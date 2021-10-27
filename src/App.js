@@ -46,7 +46,8 @@ function App() {
                 {/*    <Home/>*/}
                 {/*    <ReastaurantList/>*/}
                 {/*</Route>*/}
-                {/*<Route path='/list'>
+                {/*
+                <Route path='/list'>
                     <ReastaurantList/>
                 </Route>
 

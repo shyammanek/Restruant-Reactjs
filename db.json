@@ -5,11 +5,17 @@
       "password": "123"
     }
   ],
+  "menu": [
+    {
+      "item1": "",
+      "item" : " "
+    }
+  ],
   "restaurant": [
     {
       "id": 1,
       "name": "Pizza",
-      "price": "200",
+
       "rating": "5",
       "location": "blr"
     },
@@ -47,6 +53,13 @@
       "rating": "3.5",
       "location": "Berlin",
       "id": 7
+    },
+    {
+      "name": "Grand bhagvati",
+      "price": "1540",
+      "rating": "4.6",
+      "location": "Rajkot",
+      "id": 8
     }
   ]
 }

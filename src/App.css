@@ -8,9 +8,10 @@
 }
 span{
   display: inline-block;
-  background-color: antiquewhite;
-  padding: 10px;
-  margin: 10px;
+  background-color: #fff0f8;
+  padding: 7px;
+  margin: 7px;
+  font-size: 20pt;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
