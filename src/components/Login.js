@@ -20,7 +20,7 @@ class Login extends Component {
     }
 
     login(key) {
-        fetch("http://localhost:3000/login?q=" + this.state.name).then((data) => {
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/login?q=" + this.state.name).then((data) => {
             data.json().then((resp) => {
                 console.warn("Resp", resp)
                 if (resp.length > 0) {
