@@ -25,7 +25,7 @@ class ReastaurantList extends Component {
     }
 
     Delete(id) {
-        fetch("http://localhost:3000/restaurant/"+id,
+        fetch("https://my-json-server.typicode.com/shyammanek/restruant-api/restaurant/"+id,
             {
                 method: "DELETE",
             }).then((result) => {
